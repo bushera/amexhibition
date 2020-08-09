@@ -1,5 +1,7 @@
 body{background:white;}
 
+main{display:none;}
+
 #preload-page{position:fixed; top:0%; left:0%; width:100%; height:100%; background:white; display:block; z-index:9999; overflow:hidden; }
 #preload-img{position:absolute; width:100%; height:100%; display:none;}
 #preloader-cover{position:absolute; display:block; width:60px; height:60px; background:transparent; opacity:1; border-radius:50%; animation:scally ease-out 1s infinite .2s alternate; }
@@ -17,15 +19,15 @@ body{background:white;}
 	}
 
 
-@media only screen and (min-width:768px){
+@media(min-width:1200px){
 
 	h1{position:absolute; font-size:12px; font-family:Cursive; color:rgba(0,0,0,.3); font-weight:bold; left:45%; top:5%; letter-spacing:4px; display:none;}
-	#top-img{position:absolute; top:80%; height:8%; right:2%; width:6%; display:block;}
+	#top-img{position:absolute; top:83.5%; height:8%; right:2%; width:6%; display:block;}
 	
     #live-cover{position:absolute; height:20%; width:100%; background:white; top:25%; border-top:1px solid rgba(0,0,0,.058); border-radius:15px 15px 0px 0px; overflow:hidden; display:none;}	
 	#live-cover>div{height:35%; width:100%; position:absolute; top:2%; border-radius:15px 15px 0px 0px; filter:blur(0.5px);display:none;}
-	#live-exhibi{position:absolute; opacity:1; height:90%; top:0%; width:96%; left:2%; background:rgba(0,0,0,.01); box-shadow:0px .8px 18px 2px rgba(0,0,0,.5); border-radius:0px 0px 18px 18px; overflow:hidden;} 
-	#rele-logo2{position:absolute; top:89.3%;  width:3%; height:6%; left:15%; display:block; opacity:1;}
+	#live-exhibi{position:absolute; opacity:1; height:92%; top:0%; width:96%; left:2%; background:rgba(0,0,0,.01); box-shadow:0px .8px 18px 2px rgba(0,0,0,.5); border-radius:0px 0px 18px 18px; overflow:hidden;} 
+	#rele-logo2{position:absolute; top:92.3%;  width:3%; height:6%; left:15%; display:block; opacity:1;}
 	
 	#home1{position:absolute; font-weight:normal; color:white; top:1%; right:16.7%; opacity:.25; font-size:10px; text-transform:uppercase; text-decoration:none; z-index:999;}
 	#bio1{position:absolute; font-weight:normal; color:white; top:1%; right:14.7%; opacity:.25; font-size:10px; text-transform:uppercase; text-decoration:none; z-index:999;}
@@ -35,7 +37,7 @@ body{background:white;}
 	 
 	
 	
-	#exhibition01{position:absolute; width:100%; height:87%; opacity:1; background:transparent; top:0%; left:0%;}
+	#exhibition01{position:absolute; width:100%; height:91%; opacity:1; background:transparent; top:0%; left:0%;}
 	#exhibition-img{position:absolute; width:100%; height:100%; display:block;}
 	#countdown{position:absolute; top:24%; left:8%; z-index:9999;}
 	#countdown-item{font-size:23px; font-weight:bold; position:absolute; top:-200%;}
@@ -49,8 +51,8 @@ body{background:white;}
 	
 	h2{position:absolute; top:28%; left:7%; color:rgba(0,0,0,.3); font-size:14.5px; font-weight:bold; display:none;}
 	h3{position:absolute; top:48%; left:7%; color:rgba(0,0,0,.2); font-size:10px; font-weight:bold; display:none;}
-	#h41{position:absolute; top:91%; left:7%; color:rgba(0,0,0,.3); font-size:13px; font-weight:bold; text-decoration:none;}
-	#h42{position:absolute; top:91%; left:18%; color:rgba(0,0,0,.3); font-size:13px; font-weight:bold; text-decoration:none;}
+	#h41{position:absolute; top:94%; left:7%; color:rgba(0,0,0,.3); font-size:13px; font-weight:bold; text-decoration:none;}
+	#h42{position:absolute; top:94%; left:18%; color:rgba(0,0,0,.3); font-size:13px; font-weight:bold; text-decoration:none;}
 	
 	#slideshow{display:block;}
 	#slideshow-img{position:absolute; height:100%; width:100%;  top:0%; left:%}
@@ -74,9 +76,10 @@ body{background:white;}
 
 }
 
-@media only screen and (max-width:768px){
+@media(max-width:768px){
+	 main{display:none;}
 
-	#preload-page{width:100%; height:100%; display:block; z-index:9999;}
+	 #preload-page{width:100%; height:100%; display:block; z-index:9999;}
 	 #preload-img{position:absolute; width:100%; height:100%;display:block;}
 	 #preloader{position:absolute; top:90%; right:5%; width:28px; height:28px; border-radius:50px; background:blue; display:none;}
 	 @keyframes rotator{
@@ -95,9 +98,10 @@ body{background:white;}
 	#top-img{position:absolute; top:6.5%; height:10%; left:32%; width:18%;}
 	
     #live-cover{position:absolute; height:20%; width:100%; background:white; top:25%; border-top:1px solid rgba(0,0,0,.058); border-radius:15px 15px 0px 0px; overflow:hidden;}	
-	#live-cover>div{height:35%; width:100%; position:absolute; top:2%; border-radius:15px 15px 0px 0px; filter:blur(0.5px);}
+	#live-cover>div{height:35%; width:100%; position:absolute; top:2%; border-radius:15px 15px 0px 0px;}
 	#live-exhibi{position:absolute; opacity:1; height:45%; top:40%; width:90%; left:5%; background:rgba(0,0,0,.01); box-shadow:0px .8px 18px 2px rgba(0,0,0,.1); border-radius:0px 0px 18px 18px; z-index:-99; overflow:hidden;} 
-	#exhibition01{position:absolute; width:99.5%; height:70%; opacity:1; background:transparent; top:11.8%; left:.25%;}
+	#exhibition01{position:absolute; width:99.5%; height:65%; opacity:1; background:transparent; top:11.8%; left:.25%;}
+	#lightbox-id{position:absolute; right:9%; top:85.5%; font-size:12px; display:none;}
 	#exhibition-img{position:absolute; width:100%; height:100%;}
 	#rele-logo2{display:none;}
 	#home1{display:none;}
@@ -117,14 +121,14 @@ body{background:white;}
 	#live-cover2>div{height:35%; width:100%; position:absolute; top:2%; border-radius:15px 15px 0px 0px; filter:blur(0.5px);}
 	#live-exhibi2{position:absolute; opacity:1; height:45%; top:135%; width:90%; left:5%; background:rgba(0,0,0,.01); box-shadow:0px .8px 18px 2px rgba(0,0,0,.1); border-radius:0px 0px 18px 18px; z-index:-99; overflow:hidden;} 
 	
-	#rele-logo{position:absolute; top:47%;  width:9%; height:40%; left:4%; display:block; opacity:.8;}
+	#rele-logo{position:absolute; top:45%;  width:9%; height:40%; left:4%; display:block; opacity:.8;}
 	h2{position:absolute; top:28%; left:12%; color:rgba(0,0,0,.3); font-size:14.5px; font-weight:bold;}
 	h3{position:absolute; top:48%; left:12%; color:rgba(0,0,0,.2); font-size:10px; font-weight:bold;}
 	#h41{display:none;}
 	#h42{display:none;}
 	
-	#slideshow{display:block;}
-	#slideshow-img{position:absolute; height:100%; width:100%;  top:0%; left:%}
+	#slideshow{position:absolute; height:100%; width:100%; background:white;}
+	#slideshow-img{position:relative; top:0%; left:5%;}
 	#slideshow-video{position:absolute; top:0%; height:100%; width:100%; display:none;}
 	#video-cover{position:absolute; top:85%; right:3%; background:transparent; width:21px; height:21px; border-radius:35%;}
 	#video-box{position:absolute; top:15%; left:15%; font-size:12px;}
@@ -159,3 +163,8 @@ body{background:white;}
 
 
 }
+
+
+
+
+

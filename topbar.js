@@ -66,5 +66,9 @@ $(function(){
 			$("#works-span2").off(click);
 		});
 		
+		$("#slideshow li").click(function(){
+			$("#span-trig").trigger("click");
+		});
+		
   
 	});
