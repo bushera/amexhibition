@@ -136,8 +136,8 @@ main{display:none;}
 	#video-box2{position:absolute; top:15%; left:15%; font-size:12px;}
 	  
 	 
-    #h61{top:250%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; left:28.5%; text-align:center;}
-	#h62{top:250%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; right:28.5%; text-align:center;}
+    #h61{top:245%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; left:28.5%; text-align:center;}
+	#h62{top:245%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; right:28.5%; text-align:center;}
 
 	 #showbar{position:fixed; height:12%; width:100%; background:white; z-index:999;}
 	 #video-cover{position:absolute; top:40%; right:70%; background:orange; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
