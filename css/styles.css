@@ -132,8 +132,8 @@ main{display:none;}
 	#slideshow{position:absolute; height:100%; width:100%; background:white;}
 	#slideshow-img{position:relative; top:0%; left:5%;}
 	#slideshow-video{position:absolute; top:0%; height:100%; width:100%; display:none;}
-	#video-cover{position:absolute; top:85%; right:3%; background:transparent; width:21px; height:21px; border-radius:35%;}
-	#video-box{position:absolute; top:15%; left:15%; font-size:12px;}
+	#video-cover2{position:absolute; top:85%; right:3%; background:transparent; width:21px; height:21px; border-radius:35%;}
+	#video-box2{position:absolute; top:15%; left:15%; font-size:12px;}
 	  
 	 
     #h61{top:250%; color:rgba(0,0,0,.5); position:absolute; font-size:12px; left:28.5%; text-align:center;}
