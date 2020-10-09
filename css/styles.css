@@ -150,6 +150,12 @@ main{display:none;}
 	 #menu-cover{position:absolute; top:40%; right:30%; background:teal; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
 	 #offslide-btn{position:absolute; top:-3%; right:15%;}
 	 #menu-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #close-cover{position:absolute; top:-40%; right:30%; background:teal; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
+	 #offslide-close{position:absolute; top:-3%; right:15%;}
+	 #close-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #close-trigger{position:absolute; top:40%; right:30%; background:teal; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100); display:none;}
+	 #offslide-trigger{position:absolute; top:-3%; right:15%;}
+	 #close-trigger:hover{opacity:.8; filter:grayscale(0);}
 
 	 #offslide-btn{display:block;}
 	 #offslide{background:white; position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; display:block; z-index:99;}

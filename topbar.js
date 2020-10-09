@@ -35,6 +35,20 @@ $(function(){
 		});
 		
 		
+		$("#menu-cover").click(function(){
+			$("#menu-cover").css("display", "none");
+			$("#close-trigger").css("display", "block");
+			$("#menu-cover").off(click);
+		});
+		
+		$("#close-trigger").click(function(){
+			$("#menu-cover").css("display", "block");
+			$("#close-trigger").css("display", "none");
+			$("#offslide-close").trigger("click");
+			$("#close-trigger").off(click);
+		});
+		
+		
 		$("#offslide-close").click(function(){
 			   $("#offslide").animate({left: "-100%"}, 800);
 			   $("#offslide-btn").css("display", "block");
